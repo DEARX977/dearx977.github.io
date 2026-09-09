@@ -1,0 +1,37 @@
+        /* =========================
+   SMALL PHONES
+========================= */
+
+        @media(max-width:380px) {
+
+            nav {
+                height: 95px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+
+                letter-spacing: -2px;
+            }
+
+            .hero-subtitle {
+                font-size: 12px;
+            }
+
+            .links {
+                gap: 13px;
+            }
+
+            .links>a,
+            .dropbtn {
+                font-size: 12px;
+            }
+
+            .social-icon {
+                width: 42px;
+                height: 42px;
+
+                min-width: 42px;
+            }
+
+        }

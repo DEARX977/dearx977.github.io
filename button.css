@@ -1,0 +1,23 @@
+        /* =========================
+   BUTTON
+========================= */
+
+        .button {
+            display: inline-block;
+
+            margin-top: 28px;
+
+            padding: 12px 22px;
+
+            border: 1px solid #333;
+            border-radius: 8px;
+
+            font-size: 14px;
+
+            transition: .25s;
+        }
+
+        .button:hover {
+            background: #fff;
+            color: #000;
+        }

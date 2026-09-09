@@ -1,0 +1,62 @@
+        /* =========================
+   MOBILE
+========================= */
+
+        @media(max-width:600px) {
+
+            nav {
+                height: 95px;
+
+                padding: 17px 10px;
+
+                display: block;
+
+                text-align: center;
+            }
+
+            .logo {
+                display: block;
+
+                font-size: 17px;
+
+                margin-bottom: 12px;
+
+                height: 20px;
+                line-height: 20px;
+            }
+
+            .links {
+                display: flex;
+
+                justify-content: center;
+
+                align-items: center;
+
+                gap: 17px;
+
+                height: 30px;
+            }
+
+            .links>a,
+            .dropbtn {
+                font-size: 12px;
+
+                line-height: 30px;
+
+                height: 30px;
+            }
+
+            .dropdown {
+                height: 30px;
+            }
+
+            .dropdown-content {
+                top: 30px;
+                right: -35px;
+            }
+
+            .notice {
+                padding: 170px 8px 60px;
+            }
+
+        }

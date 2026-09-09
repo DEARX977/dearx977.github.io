@@ -1,0 +1,71 @@
+        /* =========================
+   SOCIAL
+========================= */
+
+        .social-grid {
+            display: grid;
+
+            grid-template-columns: repeat(2, 1fr);
+
+            gap: 14px;
+        }
+
+        .social {
+            display: flex;
+
+            align-items: center;
+
+            gap: 15px;
+
+            padding: 20px;
+
+            border: 1px solid #292929;
+            border-radius: 12px;
+
+            transition: .25s;
+        }
+
+        .social:hover {
+            border-color: #555;
+
+            transform: translateY(-2px);
+        }
+
+        .social-icon {
+            width: 45px;
+            height: 45px;
+
+            min-width: 45px;
+
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            border-radius: 10px;
+
+            background: #181818;
+        }
+
+        .social-icon svg {
+            width: 22px;
+            height: 22px;
+
+            fill: #fff;
+        }
+
+        .social strong {
+            display: block;
+
+            font-size: 15px;
+        }
+
+        .social span {
+            display: block;
+
+            color: #777;
+
+            font-size: 12px;
+
+            margin-top: 2px;
+        }

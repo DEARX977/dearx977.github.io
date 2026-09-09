@@ -1,0 +1,25 @@
+        /* =========================
+   WEBSITE STATUS
+========================= */
+
+        .status {
+            margin-top: 25px;
+
+            display: flex;
+            align-items: center;
+
+            gap: 9px;
+
+            color: #888;
+
+            font-size: 13px;
+        }
+
+        .status-dot {
+            width: 7px;
+            height: 7px;
+
+            border-radius: 50%;
+
+            background: #777;
+        }

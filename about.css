@@ -1,0 +1,22 @@
+        /* =========================
+   ABOUT
+========================= */
+
+        .about-text {
+            color: #aaa;
+
+            max-width: 700px;
+
+            font-size: 17px;
+        }
+
+        .build-note {
+            margin-top: 25px;
+
+            padding: 18px;
+
+            border: 1px solid #292929;
+            border-radius: 10px;
+
+            color: #888;
+        }

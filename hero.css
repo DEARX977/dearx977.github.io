@@ -1,0 +1,41 @@
+        /* =========================
+   HERO
+========================= */
+
+        .hero {
+            min-height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center;
+
+            text-align: center;
+
+            padding: 100px 20px 60px;
+
+            background:
+                radial-gradient(circle at center,
+                    #191919 0%,
+                    #080808 55%);
+        }
+
+        .hero h1 {
+            font-size: clamp(42px, 8vw, 100px);
+            letter-spacing: -4px;
+            line-height: 1;
+            white-space: nowrap;
+        }
+
+        .hero-subtitle {
+            margin-top: 22px;
+            color: #aaa;
+            font-size: 17px;
+        }
+
+        .cut {
+            text-decoration: line-through;
+            text-decoration-thickness: 2px;
+            color: #777;
+        }
